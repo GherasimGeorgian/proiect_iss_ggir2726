@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="domain.Rezervare"
+           table="Rezervare">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+
+        <property
+                name="id_loc"
+                column="id_loc"/>
+        <property
+                name="id_client"
+                column="id_client"/>
+        <property
+                name="id_date_personale"
+                column="id_date_personale"/>
+        <property
+                name="data_rezervare"
+                column="data_rezervare"/>
+        <property
+                name="id_reprezentatie"
+                column="id_reprezentatie"/>
+
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReprezentatieAdaugareController">
+   <children>
+      <Button fx:id="btnSalveaza" layoutX="172.0" layoutY="206.0" mnemonicParsing="false" text="Salveaza" />
+      <Label layoutX="109.0" layoutY="60.0" text="Nume:" />
+      <Label layoutX="108.0" layoutY="98.0" text="Rating:" />
+      <DatePicker fx:id="dpdata" layoutX="162.0" layoutY="138.0" />
+      <Label layoutX="112.0" layoutY="142.0" text="Data:" />
+      <TextField fx:id="txtNume" layoutX="162.0" layoutY="56.0" />
+      <TextField fx:id="txtRating" layoutX="162.0" layoutY="94.0" />
+   </children>
+</AnchorPane>

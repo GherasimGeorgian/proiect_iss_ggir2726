@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="domain.DatePersonale"
+           table="DatePersonale">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+
+        <property
+                name="nume"
+                column="nume"/>
+        <property
+                name="prenume"
+                column="prenume"/>
+        <property
+                name="numar_telefon"
+                column="numar_telefon"/>
+        <property
+                name="alte_mentiuni"
+                column="alte_mentiuni"/>
+        <property
+                name="id_client"
+                column="id_client"/>
+        <property
+                name="varsta"
+                column="varsta"/>
+
+
+    </class>
+</hibernate-mapping>

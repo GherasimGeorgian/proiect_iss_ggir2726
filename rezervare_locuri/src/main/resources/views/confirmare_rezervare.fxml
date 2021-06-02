@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ConfirmareRezervareController">
+   <children>
+      <Label layoutX="45.0" layoutY="28.0" text="Informatii despre rezervare:">
+         <font>
+            <Font name="Book Antiqua" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="label1" layoutX="61.0" layoutY="102.0" text="Label" />
+      <Label fx:id="label2" layoutX="61.0" layoutY="149.0" text="Label" />
+      <Label fx:id="label3" layoutX="61.0" layoutY="191.0" text="Label" />
+      <Label fx:id="label4" layoutX="61.0" layoutY="229.0" text="Label" />
+      <Label fx:id="label5" layoutX="61.0" layoutY="274.0" text="Label" />
+      <Button fx:id="btnConfirma" layoutX="136.0" layoutY="352.0" mnemonicParsing="false" text="Confirma" />
+      <Button fx:id="btnAnuleaza" layoutX="248.0" layoutY="352.0" mnemonicParsing="false" text="Anuleaza" />
+   </children>
+</AnchorPane>
